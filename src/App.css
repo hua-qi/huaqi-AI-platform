@@ -1,0 +1,7 @@
+@import '~antd/dist/antd.css';
+
+.header {
+    height: 80px;
+    background-color: #010101;
+    color: #fff;
+}

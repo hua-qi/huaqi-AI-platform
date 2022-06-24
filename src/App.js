@@ -1,10 +1,19 @@
-import { Button, DatePicker } from "antd";
+import { Layout } from 'antd'
+
+import { FormatHeader } from './components'
+
+import './App.css'
+
+const { Header, Content, Footer } = Layout
 
 const App = () => (
-  <>
-    <Button type="primary">PRESS ME</Button>
-    <DatePicker />
-  </>
-);
+    <Layout>
+        <Header className='header'>
+            <FormatHeader />
+        </Header>
+        <Content>Content</Content>
+        <Footer>Footer</Footer>
+    </Layout>
+)
 
-export default App;
+export default App
