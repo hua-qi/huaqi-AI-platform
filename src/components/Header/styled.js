@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-export default styled.div`
+const StyledHeader = styled.div`
     .header-menu {
         width: 64%;
         height: 80px;
@@ -16,8 +16,13 @@ export default styled.div`
             color: #fff;
         }
 
-        .logo:hover {
+        .logo:hover,
+        .link:hover {
             color: #1890ff;
+        }
+
+        .link {
+            color: #fff;
         }
 
         .menu {
@@ -25,7 +30,13 @@ export default styled.div`
             line-height: 80px;
             color: #fff;
             background-color: #010101;
-            border-bottom: 1px solid #010101;
+        }
+
+        .item:hover {
+            color: #1890ff;
+            cursor: pointer;
         }
     }
 `
+
+export { StyledHeader }
