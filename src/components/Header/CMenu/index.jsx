@@ -1,7 +1,7 @@
 import { Menu } from 'antd'
 
-import { CLink } from '../index'
-import { CVisionMenu } from '../index'
+import { CLink } from '../../../common'
+import { CVisionMenu } from '../CVisionMenu'
 
 const computerVision = <CVisionMenu />
 

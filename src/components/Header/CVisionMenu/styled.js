@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
 export default styled.div`
+    width: 200px;
+    padding-bottom: 10px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #fff;
     border-radius: 0 0 4px 4px;
 

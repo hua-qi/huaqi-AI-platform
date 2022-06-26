@@ -6,7 +6,7 @@ import {
     dataservices,
     languageProcessing,
     solution,
-} from './components'
+} from './CMenu'
 
 const dropdownItem = [
     {

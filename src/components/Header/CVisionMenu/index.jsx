@@ -1,6 +1,6 @@
 import StyldMenu from './styled'
 
-import { CLink } from '../index'
+import { CLink } from '../../../common'
 
 const pictureProcessing = [
     {
