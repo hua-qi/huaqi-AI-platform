@@ -1,5 +1,11 @@
+import {Contact} from './Contact'
+
 const CallUs = () => {
-    return <>联系我们</>
+    return (
+        <>
+            <Contact />
+        </>
+    )
 }
 
 export { CallUs }
