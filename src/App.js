@@ -1,3 +1,4 @@
+import { Suspense } from 'react'
 import { Layout } from 'antd'
 
 import { FormatHeader, FormatFooter } from './components'
@@ -13,7 +14,9 @@ const App = () => (
             <FormatHeader />
         </Header>
         <Content className='content'>
-            <RouteElement />
+            <Suspense>
+                <RouteElement />
+            </Suspense>
         </Content>
         <Footer className='footer'>
             <FormatFooter />

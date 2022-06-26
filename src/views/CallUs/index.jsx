@@ -1,11 +1,12 @@
-import {Contact} from './Contact'
+import CBanner from './CBanner'
+import CContact from './CContact'
 
 const CallUs = () => {
     return (
         <>
-            <Contact />
+            <CBanner />
+            <CContact />
         </>
     )
 }
-
-export { CallUs }
+export default CallUs
