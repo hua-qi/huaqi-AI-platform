@@ -1,8 +1,7 @@
 import { Layout } from 'antd'
 
 import { FormatHeader, FormatFooter } from './components'
-import {Home} from './views/index'
-
+import RouteElement from './routing-table'
 
 import './App.css'
 
@@ -14,7 +13,7 @@ const App = () => (
             <FormatHeader />
         </Header>
         <Content className='content'>
-            <Home />
+            <RouteElement />
         </Content>
         <Footer className='footer'>
             <FormatFooter />
