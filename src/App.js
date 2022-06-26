@@ -3,6 +3,7 @@ import { Layout } from 'antd'
 import { FormatHeader, FormatFooter } from './components'
 import {Home} from './views/index'
 
+
 import './App.css'
 
 const { Header, Content, Footer } = Layout

@@ -19,4 +19,3 @@ const FormatFooter = () => {
     )
 }
 export { FormatFooter }
-
