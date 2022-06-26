@@ -21,7 +21,9 @@ const StyledHeader = styled.div`
             color: #1890ff;
         }
 
-        .link {
+        .link,
+        .item {
+            font-size: 14px;
             color: #fff;
         }
 
