@@ -7,6 +7,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "antd": "^4.21.3",
+    "axios": "^0.27.2",
     "eslint-config-prettier": "^8.5.0",
     "image-loader": "^0.0.1",
     "normalize.css": "^8.0.1",
