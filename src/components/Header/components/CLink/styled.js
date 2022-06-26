@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 
-export default styled.a`
-    color: ${props => (props.href === '/#' ? '#1890ff' : ' #909399')};
+export default styled.div`
+    width: 120px;
+    text-align: center;
+    color: ${props => (props.url === '/#' ? '#ccd6e3' : '#189eff')};
 `

@@ -4,11 +4,7 @@ const CLink = props => {
     const { linkTxt, url } = props
 
     return (
-        <StyledLink
-            target='_blank'
-            rel='noopener noreferrer'
-            href={url || '/#'}
-        >
+        <StyledLink target='_blank' rel='noopener noreferrer' url={url || '/#'}>
             {linkTxt}
         </StyledLink>
     )

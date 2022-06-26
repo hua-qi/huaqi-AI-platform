@@ -1,17 +1,22 @@
 import { Space, Dropdown } from 'antd'
 
 import { StyledHeader } from './styled'
-import { dataservices } from './components'
+import {
+    computerVision,
+    dataservices,
+    languageProcessing,
+    solution,
+} from './components'
 
 const dropdownItem = [
     {
         key: 'vision',
-        overlay: dataservices,
+        overlay: computerVision,
         itemTxt: '计算机视觉',
     },
     {
         key: 'language',
-        overlay: dataservices,
+        overlay: languageProcessing,
         itemTxt: '自然语言处理',
     },
     {
@@ -21,7 +26,7 @@ const dropdownItem = [
     },
     {
         key: 'scheme',
-        overlay: dataservices,
+        overlay: solution,
         itemTxt: '解决方案',
     },
 ]
