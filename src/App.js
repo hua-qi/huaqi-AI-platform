@@ -1,6 +1,6 @@
 import { Layout } from 'antd'
 
-import { FormatHeader } from './components'
+import { FormatHeader, FormatFooter } from './components'
 
 import './App.css'
 
@@ -12,7 +12,9 @@ const App = () => (
             <FormatHeader />
         </Header>
         <Content>Content</Content>
-        <Footer>Footer</Footer>
+        <Footer className='footer'>
+            <FormatFooter />
+        </Footer>
     </Layout>
 )
 
