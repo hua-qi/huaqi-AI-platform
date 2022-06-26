@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export default styled.div`
-    width: 200px;
+    width: 220px;
     padding-bottom: 10px;
     display: flex;
     justify-content: space-around;

@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 export default styled.div`
     text-align: center;
-    color: ${props => (props.url === '/#' ? '#ccd6e3' : '#189eff')};
+    color: ${props => (props.url === '/#' ? '#c6c6c6' : '#189eff')};
 
     ${props =>
         props.type === 'logo' &&
@@ -29,6 +29,20 @@ export default styled.div`
 
             :hover {
                 color: #1890ff;
+                cursor: pointer;
+            }
+        `}
+
+    ${props =>
+        props.type === 'homeItem' &&
+        css`
+            /* home 页面 item 样式 */
+            font-size: 24px;
+            color: #101010;
+            font-family: SourceHanSanSC-regular;
+
+            :hover {
+                color: ${props => (props.url === '/#' ? '#c6c6c6' : '#189eff')};
                 cursor: pointer;
             }
         `}

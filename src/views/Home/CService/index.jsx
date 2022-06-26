@@ -1,5 +1,7 @@
 import StledService from './styled'
 
+import { CLink } from '../../../common'
+
 import collect from '../../../assets/images/collect.jpg'
 import bigdata from '../../../assets/images/bigdata.jpg'
 
@@ -11,12 +13,12 @@ const CService = () => {
                 <div className='serve-item'>
                     <img src={collect} alt='数据采集能力图片' />
                     <br />
-                    <span>数据采集能力</span>
+                    <CLink linkTxt='数据采集能力' type='homeItem' />
                 </div>
                 <div className='serve-item'>
                     <img src={bigdata} alt='大数据服务' />
                     <br />
-                    <span>大数据服务</span>
+                    <CLink linkTxt='大数据服务' type='homeItem' />
                 </div>
             </div>
         </StledService>
