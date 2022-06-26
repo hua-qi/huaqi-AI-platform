@@ -1,0 +1,212 @@
+.banner {
+    width: 100%;
+    height: 460px;
+    background-image: url(../../assets/images/首页图.0775a553.jpg);
+    background-size: cover;
+    background-position: 50% center;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section .border {
+    border-bottom: 1px solid #c6c6c6;
+}
+
+.section .boxOnelist .blue {
+    color: #1890ff;
+}
+
+.section .sectionTwo .img {
+    cursor: pointer;
+}
+
+.section .sectionThree .img {
+    cursor: pointer;
+}
+/* section开始 */
+
+.section {
+    /* height: 600px; */
+    background-color: white;
+}
+
+.section .sectionOne {
+    height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    color: #101010;
+}
+
+.sectionOne .sectionOnetitle {
+    text-align: center;
+    font-size: 28px;
+    width: 1200px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.sectionOne .boxOne {
+    width: 350px;
+    height: 460px;
+    background-color: #fff;
+    float: left;
+    padding-left: 100px;
+}
+
+.sectionOne .boxOneTitle {
+    color: #101010;
+    font-size: 20px;
+    height: 90px;
+    line-height: 90px;
+    position: relative;
+    left: -30px;
+    
+}
+
+.sectionOne .boxOnelist li {
+    border-bottom: 1px solid #ccccd6;
+    width: 108px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+}
+.sectionOne .boxOnelist a {
+    color: #ccccd6;
+}
+
+.sectionOne #boxTwo {
+    /* padding-left: 250px; */
+    margin-left: 100px;
+}
+
+.sectionOne #boxThree {
+    /* padding-left: 250px; */
+    margin-left: 10px;
+}
+/* sectionTwo */
+
+.section .sectionTwo {
+    height: 550px;
+    width: 1000px;
+    /* background-color: green; */
+    margin: 0 auto;
+    color: #101010;
+    /* background-color: red; */
+    /* border-bottom: 1px solid #c6c6c6; */
+}
+
+.sectionTwo .sectionTwotitle {
+    text-align: center;
+    font-size: 28px;
+    width: 1000px;
+    height: 120px;
+    line-height: 120px;
+}
+/* .sectionTwo .box {
+    overflow: hidden;
+} */
+
+.sectionTwo .boxOne {
+    width: 450px;
+    float: left;
+}
+
+.sectionTwo .boxTwo {
+    width: 450px;
+    float: right;
+}
+
+.sectionTwo li {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+}
+
+.sectionTwo a {
+    color: #101010;
+}
+
+.sectionTwo a:hover {
+    color: #c6c6c6;
+}
+/* sectionThree */
+
+.section .sectionThree {
+    height: 550px;
+    width: 1200px;
+    /* background-color: green; */
+    margin: 0 auto;
+    color: #101010;
+    /* background-color: red; */
+    /* border-bottom: 1px solid #c6c6c6; */
+}
+
+.sectionThree .sectionThreetitle {
+    text-align: center;
+    font-size: 27px;
+    width: 1200px;
+    height: 120px;
+    line-height: 120px;
+}
+
+.sectionThree .img {
+    width: 250px;
+    /* height: 200px; */
+}
+
+.sectionThree .boxOne {
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+
+.sectionThree .boxTwo {
+    width: 250px;
+    float: left;
+    margin-left: 60px;
+}
+
+.sectionThree .boxThree {
+    width: 250px;
+    float: left;
+    margin-left: 60px;
+}
+
+.sectionThree .boxFour {
+    width: 250px;
+    float: left;
+    margin-left: 60px;
+}
+
+.sectionThree li {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    line-height: 100px;
+    font-size: 25px;
+}
+
+.sectionThree a {
+    color: #101010;
+}
+
+.sectionThree a:hover {
+    color: #c6c6c6;
+}
+
+.sectionThree .a1:hover {
+    color: #1890ff;
+}
+/* section结束 */
