@@ -16,7 +16,7 @@ const pictureProcessing = [
     {
         key: 'plant-identification',
         label: '植物识别',
-        url: '/src',
+        url: '/plantIdentifaction',
     },
     {
         key: 'image-classification',

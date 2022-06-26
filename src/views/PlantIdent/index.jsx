@@ -1,5 +1,11 @@
+import Header from "./Header"
+
 const PlantIdent = () => {
-    return <>植物识别</>
+    return (
+        <>
+            <Header />
+        </>
+    )
 }
 
 export { PlantIdent }
