@@ -1,0 +1,5 @@
+export { Home } from './Home'
+export { CallUs } from './CallUs'
+export { PlantIdent } from './PlantIdent'
+export { FaceReco } from './FaceReco'
+export { FaceDete } from './FaceDete'
