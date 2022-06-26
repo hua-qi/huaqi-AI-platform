@@ -75,37 +75,37 @@ const videoList = [
 
 const languageList = [
     {
-        ket: 'sentiment-analysis',
+        key: 'sentiment-analysis',
         label: '情感分析',
         url: '',
     },
     {
-        ket: 'text-summarization',
+        key: 'text-summarization',
         label: '文本摘要',
         url: '',
     },
     {
-        ket: 'speech-recognition',
+        key: 'speech-recognition',
         label: '语音识别',
         url: '',
     },
     {
-        ket: 'syntax-analysis',
+        key: 'syntax-analysis',
         label: '语法分析',
         url: '',
     },
     {
-        ket: 'syntactic-analysis',
+        key: 'syntactic-analysis',
         label: '句法分析',
         url: '',
     },
     {
-        ket: 'text-similarity',
+        key: 'text-similarity',
         label: '文本相似度',
         url: '',
     },
     {
-        ket: 'text-classification',
+        key: 'text-classification',
         label: '文本分类',
         url: '',
     },
@@ -128,7 +128,6 @@ const itemList = [
         list: languageList,
     },
 ]
-
 
 const CProduct = () => {
     return (

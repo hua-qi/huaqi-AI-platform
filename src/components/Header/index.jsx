@@ -1,13 +1,13 @@
 import { Space, Dropdown } from 'antd'
 
 import { StyledHeader } from './styled'
+import { CLink } from '../../common'
 import {
     computerVision,
     dataservices,
     languageProcessing,
     solution,
 } from './CMenu'
-
 
 const dropdownItem = [
     {
@@ -36,14 +36,9 @@ const FormatHeader = () => {
     return (
         <StyledHeader>
             <div className='header-menu'>
-                <a className='logo' href='/#'>
-                    huaqi AI 平台
-                </a>
-
+                <CLink linkTxt='huaqi AI 平台' url='/' type='logo' />
                 <Space className='menu' size={30}>
-                    <a className='link' href='/#'>
-                        首页
-                    </a>
+                    <CLink linkTxt='首页' url='/' type='headerItem' />
                     {dropdownItem.map(item => {
                         return (
                             <Dropdown
@@ -55,9 +50,7 @@ const FormatHeader = () => {
                             </Dropdown>
                         )
                     })}
-                    <a className='link' href='/#'>
-                        联系我们
-                    </a>
+                    <CLink linkTxt='联系我们' url='/callUs' type='headerItem' />
                 </Space>
             </div>
         </StyledHeader>
