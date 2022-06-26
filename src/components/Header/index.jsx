@@ -1,49 +1,30 @@
-import { Space, Dropdown, Menu } from 'antd'
+import { Space, Dropdown } from 'antd'
 
 import { StyledHeader } from './styled'
+import { dataservices } from './components'
 
-const menu = (
-    <Menu
-        items={[
-            {
-                key: '1',
-                label: (
-                    <a
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href='https://www.antgroup.com'
-                    >
-                        1st menu item
-                    </a>
-                ),
-            },
-            {
-                key: '2',
-                label: (
-                    <a
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href='https://www.aliyun.com'
-                    >
-                        2nd menu item
-                    </a>
-                ),
-            },
-            {
-                key: '3',
-                label: (
-                    <a
-                        target='_blank'
-                        rel='noopener noreferrer'
-                        href='https://www.luohanacademy.com'
-                    >
-                        3rd menu item
-                    </a>
-                ),
-            },
-        ]}
-    />
-)
+const dropdownItem = [
+    {
+        key: 'vision',
+        overlay: dataservices,
+        itemTxt: '计算机视觉',
+    },
+    {
+        key: 'language',
+        overlay: dataservices,
+        itemTxt: '自然语言处理',
+    },
+    {
+        key: 'data',
+        overlay: dataservices,
+        itemTxt: '数据服务',
+    },
+    {
+        key: 'scheme',
+        overlay: dataservices,
+        itemTxt: '解决方案',
+    },
+]
 
 const FormatHeader = () => {
     return (
@@ -57,18 +38,17 @@ const FormatHeader = () => {
                     <a className='link' href='/#'>
                         首页
                     </a>
-                    <Dropdown overlay={menu} placement='bottom'>
-                        <div className='item'>计算机视觉</div>
-                    </Dropdown>
-                    <Dropdown overlay={menu} placement='bottom'>
-                        <div className='item'>自然语言处理</div>
-                    </Dropdown>
-                    <Dropdown overlay={menu} placement='bottom'>
-                        <div className='item'>数据服务</div>
-                    </Dropdown>
-                    <Dropdown overlay={menu} placement='bottom'>
-                        <div className='item'>解决方案</div>
-                    </Dropdown>
+                    {dropdownItem.map(item => {
+                        return (
+                            <Dropdown
+                                overlay={item.overlay}
+                                key={item.key}
+                                placement='bottom'
+                            >
+                                <div className='item'>{item.itemTxt}</div>
+                            </Dropdown>
+                        )
+                    })}
                     <a className='link' href='/#'>
                         联系我们
                     </a>
