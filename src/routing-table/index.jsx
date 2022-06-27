@@ -9,6 +9,7 @@ const routing_table = [
     {
         path: '/',
         element: <Home />,
+        exact:true
     },
     {
         path: '/callUs',
