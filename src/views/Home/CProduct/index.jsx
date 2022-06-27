@@ -64,7 +64,7 @@ const videoList = [
     {
         key: 'face-detection',
         label: '视频人脸检测',
-        url: '',
+        url: 'faceDetection',
     },
     {
         key: 'object-recognition',
