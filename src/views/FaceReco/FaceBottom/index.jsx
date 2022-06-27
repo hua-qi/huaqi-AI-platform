@@ -1,4 +1,5 @@
 import StyledBottom from './styled'
+import { CLink } from '../../../common'
 import algorithm from '../../../assets/images/主流算法.png'
 import fuwu from '../../../assets/images/服务稳定高效.png'
 import linghuo from '../../../assets/images/灵活简单易用.png'
@@ -86,7 +87,11 @@ const FaceBottom = () => {
             <div className='sectionFour'>
                 <div className='box'>
                     <div className='input'>
-                        <input type='button' src='' value='联系我们' />
+                        <CLink
+                            linkTxt='联系我们'
+                            url='callUs'
+                            type='callUsButton'
+                        />
                     </div>
                 </div>
             </div>
