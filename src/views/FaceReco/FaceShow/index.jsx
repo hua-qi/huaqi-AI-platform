@@ -19,7 +19,7 @@ const FaceShow = () => {
                 'Content-Type': 'application/x-www-form-urlencoded',
             },
             data: {
-                fileUrl: inputRef,
+                fileUrl: inputRef.current.value,
             },
         })
 
