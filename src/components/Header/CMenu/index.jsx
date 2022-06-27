@@ -68,7 +68,7 @@ const solution = (
             },
             {
                 key: 'face-recognition',
-                label: <CLink linkTxt='人脸识别' url='/src' />,
+                label: <CLink linkTxt='人脸识别' url='faceRecognition' />,
             },
             {
                 key: 'address-recognition',

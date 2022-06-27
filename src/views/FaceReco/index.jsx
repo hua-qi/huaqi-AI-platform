@@ -1,5 +1,16 @@
+import { FaceBanner } from "./FaceBanner"
+import { FaceFunction } from "./FaceFunction"
+import { FaceShow } from "./FaceShow"
+import { FaceBottom } from "./FaceBottom"
 const FaceReco = () => {
-    return <>表情识别/人脸识别</>
+  return (
+    <>
+      <FaceBanner />
+      <FaceFunction />
+      <FaceShow />
+      <FaceBottom />
+    </>
+  )
 }
 
-export { FaceReco }
+export default FaceReco

@@ -23,16 +23,7 @@ export default styled.section`
     }
 
     .scheme-item {
-        text-align: center;
-        font-size: 24px;
         line-height: 60px;
-        color: #101010;
-        font-family: SourceHanSanSC-regular;
-    }
-
-    .scheme-item span:hover {
-        color: #c6c6c6;
-        cursor: pointer;
     }
 
     .scheme img {

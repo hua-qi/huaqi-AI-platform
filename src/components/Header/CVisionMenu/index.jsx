@@ -6,17 +6,17 @@ const pictureProcessing = [
     {
         key: 'expression-recognition',
         label: '表情识别',
-        url: '/src',
+        url: '/faceRecognition',
     },
     {
         key: 'face-recognition',
         label: '人脸识别',
-        url: '/src',
+        url: '/faceRecognition',
     },
     {
         key: 'plant-identification',
         label: '植物识别',
-        url: '/src',
+        url: 'plantIdentifaction',
     },
     {
         key: 'image-classification',
@@ -54,7 +54,7 @@ const videoProcessing = [
     {
         key: ' face-detection',
         label: '视频人脸检测',
-        url: '/src',
+        url: '/faceDetection',
     },
     {
         key: 'object-recognition',

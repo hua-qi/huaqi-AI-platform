@@ -1,5 +1,3 @@
-import { Button } from 'antd'
-
 import PlantHeader from './styled'
 import React from 'react'
 import plantImg from '../../../assets/images/background.jpg'

@@ -23,15 +23,6 @@ export default styled.section`
     }
 
     .serve-item {
-        text-align: center;
-        font-size: 24px;
         line-height: 60px;
-        color: #101010;
-        font-family: SourceHanSanSC-regular;
-    }
-
-    .serve-item span:hover {
-        color: #c6c6c6;
-        cursor: pointer;
     }
 `
