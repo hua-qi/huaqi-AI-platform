@@ -1,67 +1,72 @@
 import styled from 'styled-components'
 
 export default styled.section`
-    .section .sectionOne {
-        height: 200px;
-        width: 1200px;
-        /* margin: 0 auto; */
-        /* color: #101010; */
-        margin-bottom: 250px;
-        position: relative;
-        /* background-color: green; */
-    }
-
-    .sectionOne .sectionOnetitle {
-        text-align: center;
-        font-size: 28px;
-        width: 1200px;
-        height: 80px;
-        line-height: 80px;
-        margin-top: 80px;
-        /* margin-bottom: 10px; */
-    }
-
-    .sectionOne img {
-        /* padding: 10px; */
-        /* margin-left: 10px;
-     float: left; */
-        /* background-color: #409eff; */
-        position: relative;
-        top: 60px;
-        left: -150px;
-    }
-
-    .sectionOne .boxOne {
-        height: 300px;
-        width: 200px;
-        /* float: left; */
-        /* margin-left: 10px; */
-        /* background-color: #fff;  */
-    }
-
-    .boxOne .content {
-        display: inline-block;
-        text-align: left;
-        height: 100px;
-        width: 250px;
-        /* padding-left: 20px; */
-        padding-top: 10px;
-        color: #2c3e50;
-    }
-
-    .contentxt {
-        font-size: 14px;
-        width: 300px;
-        text-align: left;
-    }
-
-    .sectionOne .boxTwo {
-        height: 300px;
-        width: 200px;
-    }
-
-    .sectionOne .boxThree {
-        height: 300px;
-        width: 1000px;
-    }
+    .box-item{
+    width: 90%;
+    padding: 0 50px;
+    margin: auto;
+    text-align: left;
+    display: block;
+}
+.box-item header{
+    font-size: 32px;
+    margin: 120px 0 50px 0;
+    text-align: center;
+    width: 100%;
+}
+.el-col1-1{
+    float: left;
+}
+.el-col1-1 img{
+    width: 40px;
+    display: block;
+}
+.el-col{
+    height: 200px;
+    width: 33%;
+    display: block;
+    float: left;
+}
+.el-col1-2{
+    width: 300px;
+    padding: 0 0 0 50px;
+}
+.fl-col{
+    height: 200px;
+    width: 33%;
+    display: block;
+    float: left;
+}
+.fl-col1-2{
+    width: 300px;
+    padding: 0 0 0 50px;
+}
+.dl-col{
+    width: 33%;
+    height: 200px;
+    display: block;
+    float: right;
+}
+.dl-col1-2{
+    width: 300px;
+    padding: 0 0 0 50px;
+}
+.v1{
+    width: 800px;
+}
+.con{
+    padding-left: 100px;
+}
+.content{
+    width: 100%;
+}
+.con2 {
+    height: 450px;
+    display: inline-block;
+    margin-left: 950px;
+    margin-top: -300px;
+}
+.con2 li {
+    list-style: none;
+}
 `
